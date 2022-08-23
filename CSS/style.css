@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(6,240,163);
+    background: linear-gradient(130deg, rgba(6,240,163,1) 0%, rgba(3,226,209,1) 42%, rgba(0,129,255,1) 100%);
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif; color: white;
+}
+
+.header img{
+    width: 150px;
+    margin: 0px 0px 0px 20px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    height: 150px;
+    align-items: center;
+
+}
+
+.header li{
+    padding: 10px;
+    background-color: aqua;
+    transition: .4s;
+}
+
+.header li:hover{
+    background-color: rgba(0, 255, 255, 0.429);
+    transition: .3s;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    background: rgb(6,240,163);
+    background: linear-gradient(130deg, rgba(6,240,163,1) 0%, rgba(3,226,209,1) 42%, rgba(0,129,255,1) 100%);
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    font-family: 'Times New Roman', Times, serif; color: white;
+    padding: 10px;
+
+}
+
+.div-one-footer ul{
+    list-style: none;
+    margin: 10px;
+}
+
+.div-two-footer ul{
+    list-style: none;
+    margin: 20px;
+}
+
+.footer li{
+    padding: 2px;
+}
+
+.footer :hover{
+    color: white;
+}
+
+/* Index */
+
+.section-one-index{
+    display: flex;
+    background: rgb(174,238,235);
+    background: radial-gradient(circle, rgba(174,238,235,1) 25%, rgba(228,233,148,1) 100%);  
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.section-one-index p{
+    padding: 160px;
+    font-size: larger;
+}
+
+.section-two-index{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-two-index h2{
+    margin: 70px;
+    font-size: 200%;
+}
+
+.section-two-index ul{
+    list-style: none;
+}
+
+.section-two-index li{
+    padding: 10px;
+}
+
+.iframe-index{
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+}
+
+/* Ver Online */
+
+.main-verOnline{
+    display: flex;
+    padding: 100px;
+    flex-wrap: wrap;
+    background: rgb(129,129,129);
+    background: linear-gradient(130deg, rgba(129,129,129,1) 0%, rgba(255,255,255,1) 50%, rgba(129,129,129,1) 100%);
+}
+
+.li-1-verOnline{
+    display: flex;
+    margin: 20px;
+    width: 1200px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.li-2-verOnline{
+    display: flex;
+    margin: 20px;
+    width: 1200px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.li-3-verOnline{
+    display: flex;
+    margin: 20px;
+    width: 1200px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.li-4-verOnline{
+    display: flex;
+    margin: 20px;
+    width: 1200px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Quienes Somos */
+
+.main-quienesSomos{
+    display: flex;
+    padding: 25px;
+    background: rgb(199,165,74);
+    background: linear-gradient(0deg, rgba(199,165,74,1) 0%, rgba(239,229,202,1) 100%);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sectionOne-quienesSomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150%;
+}
+
+.sectionOne-quienesSomos p{
+    padding: 0 100px 50px 100px;
+}
+
+.liOne-quienesSomos{
+    display: flex;
+    margin: 20px;
+    width: 1500px;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 116%;
+}
+
+.liOne-quienesSomos p{
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    display: flex;
+}
+
+.liTwo-quienesSomos{
+    display: flex;
+    margin: 20px;
+    width: 1500px;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: row-reverse;
+    font-size: 116%;
+}
+
+.liTwo-quienesSomos img{
+    height: 400px;
+    width: 700px;
+}
+
+.liTwo-quienesSomos p{
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.liThree-quienesSomos{
+    display: flex;
+    margin: 20px;
+    width: 1500px;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 105%;
+}
+
+.liThree-quienesSomos p{
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Contacto */
+
+.main-contacto{
+    padding: 60px;
+    justify-items: space-between;
+    background-image: linear-gradient(to bottom, rgba(207, 76, 24, 0.655), rgb(6, 251, 247));
+}
+.grid-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 220, 0.464);
+    border-radius: 5%; 
+    padding: 40px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "contactanos necesitoOracion quieroDonar"
+      "contactanos necesitoOracion quieroDonar";
+  }
+  
+  .contactanos { 
+    grid-area: contactanos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  .necesitoOracion { 
+    grid-area: necesitoOracion;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+  
+  .quieroDonar { 
+    grid-area: quieroDonar; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+/* .main-contacto{
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    background-image: url(../Images/fondo-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divOne-contacto{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Images/degradado-difuminado-cafe-y-azul_1920x1080_8005.jpg);
+    width: 350px;
+    padding: 20px;
+}
+
+.divTwo-contacto{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Images/degradado-difuminado-cafe-y-azul_1920x1080_8005.jpg);
+    width: 350px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.divThree-contacto{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Images/degradado-difuminado-cafe-y-azul_1920x1080_8005.jpg);
+    width: 350px;
+    padding: 20px;
+    align-items: flex-start; 
+}    
+    */
+
+
+/* JIBA */
+
+.main-jiba{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    color: white;
+    font-size: 200%;
+    background: rgb(255,196,0);
+    background: linear-gradient(90deg, rgba(255,196,0,1) 32%, rgba(255,0,0,1) 85%);    
+}
+
+.sectionOne-jiba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.sectionOne-jiba img{
+    width: 290px;
+    height: 400px;
+    border: 5px;
+}
+
+.sectionTwo-jiba{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Media queries - mobile Last */
+
+@media (max-width: 1165px) {
+    .section-one-index{
+        flex-direction: column;
+    }
+
+    .section-one-index p{
+        padding: 10px;
+    }
+    
+    .section-one-index img{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1020px){
+    .iframe-index{
+        width: 300px;
+        height: 225px;
+    }
+}
+
+@media (max-width: 900px) {
+    .header{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header img{
+        margin: 0px;
+    }
+
+    .section-one-index{
+        flex-direction: column;
+    }
+
+    .section-one-index p{
+        padding: 10px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-auto-flow: column;
+        grid-template-areas:
+          "contactanos"
+          "necesitoOracion"
+          "quieroDonar";
+    }
+}
+/* 
+@media (max-width: 715px) {
+    .section-two-index{
+        flex-direction: column;
+    }
+} */
+
+@media (max-width: 620px) {
+    .section-one-index img{
+        width: 400px;
+    }
+    
+    .footer {
+        font-size: smaller;
+    }
+}
+
+
